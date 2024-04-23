@@ -1,0 +1,132 @@
+{
+  "EtherlinkExplorerSettings": {
+    "ScoringSettings": {
+      "Mainnet": {
+        "IsTestnet": false,
+        "ApiBaseUrl": "https://explorer.etherlink.com/",
+        "AppendedPath": null,
+        "ApiKeys": [
+        ],
+        "UseProxies": false,
+        "HttpClientProxies": [
+          {
+            "ProxyId": "00000000-0000-0000-0000-000000000000"
+          }
+        ],
+        "MaxApiCallsPerSecond": 5,
+        "ItemsFetchLimitPerRequest": 10000,
+        "TransactionsLimit": 1000000
+      },
+      "Testnet": {
+        "IsTestnet": true,
+        "ApiBaseUrl": "https://testnet-explorer.etherlink.com/",
+        "AppendedPath": null,
+        "ApiKeys": [
+        ],
+        "UseProxies": true,
+        "HttpClientProxies": [
+          {
+            "ProxyId": "00000000-0000-0000-0000-000000000000"
+          }
+        ],
+        "MaxApiCallsPerSecond": 5,
+        "ItemsFetchLimitPerRequest": 10000,
+        "TransactionsLimit": 1000000
+      }
+    },
+    "BlockchainDescriptors": {
+      "Mainnet": {
+        "IsTestnet": false,
+        "IsEnabled": true,
+        "ChainId": 0,
+        "ChainName": "Etherlink Chain Mainnet",
+        "BlockchainName": "Etherlink Chain",
+        "BlockchainSlug": "etherlink",
+        "BlockExplorerUrls": [
+          "https://explorer.etherlinkchain.io/"
+        ],
+        "NativeCurrency": {
+          "Id": "",
+          "Name": "XTZ",
+          "Symbol": "XTZ",
+          "Decimals": 18,
+          "LogoUri": "https://cdn.nomis.cc/chains/etherlink/logo.svg"
+        },
+        "Order": 1000,
+        "Icon": "https://cdn.nomis.cc/chains/etherlink/logo.svg",
+        "LabelIcon": "",
+        "IsHided": false,
+        "Type": "EVM",
+        "PlatformIds": {
+          "Coingecko": "tezos",
+          "DefiLLama": "etherlink"
+        },
+        "RPCUrls": [
+          "https://node.ghostnet.etherlink.com"
+        ],
+        "IsEVMCompatible": true,
+        "SBTData": {
+          "Finance": {
+            "ContractAddress": "",
+            "TokenName": "NMSS",
+            "Version": "0.9"
+          }
+        }
+      },
+      "Testnet": {
+        "IsTestnet": true,
+        "IsEnabled": true,
+        "ChainId": 128123,
+        "ChainName": "Etherlink Testnet",
+        "BlockchainName": "Etherlink Testnet",
+        "BlockchainSlug": "etherlink",
+        "BlockExplorerUrls": [
+          "https://testnet-explorer.etherlink.com/"
+        ],
+        "NativeCurrency": {
+          "Id": "",
+          "Name": "XTZ",
+          "Symbol": "XTZ",
+          "Decimals": 18,
+          "LogoUri": "https://cdn.nomis.cc/chains/etherlink/logo.svg"
+        },
+        "Order": 1000,
+        "Icon": "https://cdn.nomis.cc/chains/etherlink/logo.svg",
+        "LabelIcon": "",
+        "IsHided": false,
+        "Type": "EVM",
+        "PlatformIds": {
+          "Coingecko": "tezos",
+          "DefiLLama": "etherlink"
+        },
+        "RPCUrls": [
+          "https://node.ghostnet.etherlink.com"
+        ],
+        "IsEVMCompatible": true,
+        "SBTData": {
+          "Finance": {
+            "ContractAddress": "",
+            "TokenName": "NMSS",
+            "Version": "0.9"
+          }
+        }
+      }
+    },
+    "GetFromCacheStatsIsEnabled": true,
+    "GetFromCacheStatsTimeLimit": "23:59:59",
+    "UseHttpClientLogging": false,
+    "UseHistoricalMedianBalanceUSD": {
+      "CommonV3": true,
+      "LayerZero": false
+    },
+    "MedianBalancePrecision": 0,
+    "MedianBalanceStartFrom": "30.00:00:00",
+    "MedianBalanceLastCount": 1000,
+    "DiscountedMintFeeIsEnabled": false,
+    "DiscountedScores": {
+      "Multichain": 0
+    },
+    "SendScoreToDiscord": false,
+    "ImageVersion": "V1"
+  }
+}

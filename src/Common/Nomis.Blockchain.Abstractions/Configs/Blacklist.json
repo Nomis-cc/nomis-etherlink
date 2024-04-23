@@ -1,0 +1,10 @@
+{
+  "BlacklistSettings": {
+    "UseBlacklist": false,
+    "Blacklist": {
+      "Breaker": [
+        ""
+      ]
+    }
+  }
+}

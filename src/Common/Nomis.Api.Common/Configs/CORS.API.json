@@ -1,0 +1,10 @@
+{
+  "CorsSettings": {
+    "UseCORS": true,
+    "PolicyOrigins": {
+      "FrontendPolicy": [
+        ""
+      ]
+    }
+  }
+}

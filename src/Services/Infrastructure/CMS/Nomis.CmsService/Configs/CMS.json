@@ -1,0 +1,6 @@
+{
+  "CmsServiceSettings": {
+    "BaseUrl": "https://cms.nomis.cc/",
+    "ApiKey": ""
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "PolygonIdSettings": {
+    "ApiBaseUrl": "https://polygon.nomis.cc/",
+    "IssuerBasicAuthUsername": "issuer",
+    "IssuerBasicAuthPassword": "",
+    "IssuerDid": "",
+    "NomisCredentialSchema": "",
+    "NomisCredentialType": "NomisScore"
+  }
+}

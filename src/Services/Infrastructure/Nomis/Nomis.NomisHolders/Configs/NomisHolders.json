@@ -1,0 +1,21 @@
+{
+  "NomisHoldersSettings": {
+    "ApiBaseUrl": "https://nomis.cc/",
+    "UseSubgraphs": true,
+    "SubgraphsApis": {
+      "Multichain": "https://api.studio.thegraph.com/query/32214/nomis-score-polygon/version/latest",
+      "ZkSync": "https://api.studio.thegraph.com/query/32214/nomis-score-zksync-era-migrate/version/latest",
+      "LayerZero": "https://api.studio.thegraph.com/query/32214/nomis-score-arbitrum-one/version/latest",
+      "ZkEvm": "https://api.studio.thegraph.com/query/32214/nomis-score-polygon-zkevm/version/latest",
+      "Linea": "https://graph-query.linea.build/subgraphs/name/nomis/nomis-score-linea"
+    },
+    "MaxApiCallsPerSecond": 10,
+    "UseHttpClientRetrying": true,
+    "MaxRetries": 3,
+    "UseDefaultRetryTimeout": false,
+    "DefaultRetryTimeout": "00:00:01",
+    "RetryTimeouts": {
+      "TooManyRequests": "00:00:01"
+    }
+  }
+}
